@@ -1,0 +1,38 @@
+h1 {
+    position: absolute;
+    top: 10px; /* Ajuste o valor conforme necessário */
+    left: 20px; /* Ajuste o valor conforme necessário */
+    margin: 0;
+}
+
+.grid_container {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr); /* Ajusta a largura de cada coluna */
+    gap: 10px; /* Ajusta o espaçamento entre os itens */
+    padding: 20px; /* Adiciona um pouco de espaço ao redor da tabela */
+    width: 95%; /* Faz a tabela ocupar 90% da largura da tela */
+    margin: 50px auto; /* Centraliza a tabela e dá um espaço do topo */
+}
+
+.grid_item {
+    background-color: lightgrey; 
+    padding: 15px; /* Ajuste o padding para ocupar mais espaço vertical */
+    text-align: center;
+    border-radius: 5px; /* Adiciona bordas arredondadas aos itens */
+}
+
+.div_button {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: flex-start;
+    padding: 15px;
+    background-color: #222;
+    color: white;
+}
+
+.selected {
+    background-color: #f0f0f0; /* ou qualquer cor de destaque que você preferir */
+}

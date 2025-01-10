@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.precoLucroContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.precoLucroContainer h4 {
+    margin: 0;
+}
+
+.div_button {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
